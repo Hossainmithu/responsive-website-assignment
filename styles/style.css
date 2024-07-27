@@ -45,6 +45,11 @@ ul>li>a {
   font-weight: 400;
 }
 
+/* Banner section */
+
+.banner-container{
+  display: flex;
+}
 
 @media screen and (max-width:576px) {
   .list{
