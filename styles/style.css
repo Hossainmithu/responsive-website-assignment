@@ -9,7 +9,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.btn-primary {
+.btn-nav {
   border-radius: 46px;
   background: rgb(230, 83, 60);
   border: none;
@@ -47,12 +47,98 @@ ul>li>a {
 
 /* Banner section */
 
-.banner-container{
+.banner-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
+  gap: 100px;
+}
+
+.banner-content {}
+
+.banner-tittle {
+  color: rgb(255, 255, 255);
+  font-size: 78px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+
+.btn-banner {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 40px;
+}
+
+.btn-download {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  box-sizing: border-box;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 10px 40px;
+}
+
+/* change your habit section styles */
+
+.change-habit{
+  margin-bottom: 100px;
+}
+.change-habit-content {
+  text-align: center;
+  width: 620px;
+  /* height: 48px; */
+  margin: 0 auto;
+}
+
+.change-habit-tittle {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.change-habit-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.change-habit-card {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.change-habit-card img {
+  border-radius: 50%;
+}
+
+.change-habit-card-tittle {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.change-habit-card-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 @media screen and (max-width:576px) {
-  .list{
+  .list {
     width: 100%;
     max-height: 0;
     overflow: hidden;
